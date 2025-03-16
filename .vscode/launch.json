@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/cbec/OneDrive/Desktop/DSA/DataStructuresAndAlgorithm/Strings/PermutationInstring",
-      "program": "c:/Users/cbec/OneDrive/Desktop/DSA/DataStructuresAndAlgorithm/Strings/PermutationInstring/build/Debug/outDebug",
+      "cwd": "c:/Users/cbec/OneDrive/Desktop/DSA/DataStructuresAndAlgorithm/printallsubsets",
+      "program": "c:/Users/cbec/OneDrive/Desktop/DSA/DataStructuresAndAlgorithm/printallsubsets/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
