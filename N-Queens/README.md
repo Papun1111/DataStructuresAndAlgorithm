@@ -1,5 +1,3 @@
-Below is a sample README that explains the approach, code, intuition, backtracking steps, and complexity analysis for the N-Queens problem implementation:
-
 ---
 
 # N-Queens Problem Solver in C++
