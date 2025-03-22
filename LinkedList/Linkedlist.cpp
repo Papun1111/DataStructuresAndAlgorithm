@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 class Node {
 public:
     int val;
@@ -52,8 +52,38 @@ public:
             temp = temp->next;
         }
     }
+    void pop_back(){
+        if(head==nullptr){
+            cout<<"empty list cannot pop further";
+            return;
+        }
+        if(head->next==nullptr){
+            head=nullptr;
+            return;
+        }
+        Node*temp=head;
+        Node*secondLast=head;
+        while (temp->next!=nullptr)
+        {
+            secondLast=temp;
+            temp=temp->next;
+        }
+        secondLast->next=nullptr;
+    }
+    void pop_front(){
+        if(head==nullptr){
+            cout<<"empty list cannot pop further";
+            return;
+        }
+        if(head->next==nullptr){
+            head=nullptr;
+            return;
+        }
+        Node*temp=head;
+        head=head->next;
+        delete temp;
+    }
 };
-
 int main() {
     List l;
     l.push_front(3);
@@ -61,6 +91,8 @@ int main() {
     l.push_front(1);
     l.push_back(4);
     l.push_back(5);
+    l.pop_front();
+    l.pop_back();
     l.print();
     return 0;
 }
