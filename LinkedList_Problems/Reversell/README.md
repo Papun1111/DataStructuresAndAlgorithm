@@ -4,7 +4,7 @@ Here's a detailed README for the reverse function of the linked list implementat
 
 ### Reverse Function for Singly Linked List
 
-**File**: `List.cpp`
+**File**: `Reversell.cpp`
 
 **Function**: `void List::reverse()`
 
