@@ -1,4 +1,3 @@
-Here's a detailed README for the `middle` function of the linked list implementation in C++:
 
 ---
 
